@@ -11,17 +11,17 @@ class Solution:
         n = len(arr)
         if n < 2:
             return -1 
-        first = second = float('-inf')
+        firstLNum = secondLNum = float('-inf')
         for num in arr:
-            if num > first:
-                second = first
-                first = num
-            elif num > second and num != first:
-                second = num
-        if second == float('-inf'):
+            if num > firstLNum:
+                secondLNum = firstLNum
+                firstLNum = num
+            elif num > secondLNum and num != firstLNum:
+                secondLNum = num
+        if secondLNum == float('-inf'):
             return -1
         else:
-            return second
+            return secondLNum
 arr = [12, 35, 1, 10, 34, 1]
 obj = Solution()
 print(obj.getSecondLargest(arr))

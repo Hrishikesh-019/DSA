@@ -16,8 +16,17 @@
 # print(a[2::-2])
 
 # Reverse a String Without slicing.
-s="Rishi"
-rev=''
-for i in s:
-    rev=i+rev
-print(rev)
+# s="Rishi"
+# rev=''
+# for i in s:
+#     rev=i+rev
+# print(rev)
+
+
+# list and tuple
+pet=('cat','dog','rabbit','cow')
+bikes=['RE',1,'Jawa',2,'Splender']
+# pet[0]='lion' tuple immutable
+bikes[1]='2'
+print(pet)
+print(bikes)

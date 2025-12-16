@@ -1,10 +1,10 @@
-# ##Square Of Number
-# def SquarOfNum(a):
-#     return a**a
-# res=SquarOfNum(5)
-# print(res)
+##Square Of Number
+def SquarOfNum(a):
+    return a**a
+res=SquarOfNum(5)
+print(res)
 
-#return
+# return
 
 # Sends value back
 
@@ -12,17 +12,17 @@
 
 # Used in interviews & real projects
 
-#FUNCTIONAL ARGUMENTS
+# FUNCTIONAL ARGUMENTS
 
 # Positional Argumets
-# def greet(name, city):
-#     print (name, city)
-# greet("Rishi,", "Hyderabad")
+def greet(name, city):
+    print (name, city)
+greet("Rishi,", "Hyderabad")
 
 # Default Argument
-#def greet(name, city="Hyderabad"):
-#     print(name,city)
-# greet("Rishi")
+def greet(name, city="Hyderabad"):
+    print(name,city)
+greet("Rishi")
 
 # *args Multiple Arguments
 
